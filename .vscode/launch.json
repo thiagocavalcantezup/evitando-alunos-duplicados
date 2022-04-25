@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-EvitandoAlunosDuplicadosApplication<evitando-alunos-duplicados>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "br.com.zup.handora.evitandoalunosduplicados.EvitandoAlunosDuplicadosApplication",
+      "projectName": "evitando-alunos-duplicados",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
