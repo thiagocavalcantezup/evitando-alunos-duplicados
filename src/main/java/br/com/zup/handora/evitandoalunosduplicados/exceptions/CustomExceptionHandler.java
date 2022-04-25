@@ -119,6 +119,10 @@ public class CustomExceptionHandler {
             httpStatus = HttpStatus.UNPROCESSABLE_ENTITY;
 
             switch (constraintName.toUpperCase()) {
+                case "UK_ALUNO_NUMERO_DATA_MATRICULA":
+                    mensagemGeral = "Houve um problema com a sua requisição.";
+                    mensagemEspecifica = "Já existe um aluno com essa matrícula nessa data.";
+                    break;
                 default:
                     mensagemEspecifica = "Violação de restrição dos dados.";
                     break;
